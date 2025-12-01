@@ -1,0 +1,76 @@
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    appearance: none;
+    background-color: #e0e0e0;
+    border: 2px solid #ccc;
+    border-radius: 2px;
+    cursor: pointer;
+    position: relative;
+    margin: 0;
+}
+
+.red1{
+    gap: 0px;
+    display: flex;
+    height: 20px;
+}
+
+.red1 input:checked{
+    background-color: #ff0000;
+    border-color: #ff0000;
+}
+
+.ambar1{
+    gap: 0px;
+    display: flex;
+}
+
+.ambar1 input:checked{
+    background-color: #ffa64d; 
+    border-color: #ffa64d;
+}
+
+.green1{
+    gap: 0px;
+    display: flex;
+}
+
+.green1 input:checked{
+    background-color: green; 
+    border-color: green;
+}
+
+
+
+
+.red2{
+    gap: 0px;
+    display: flex;
+    height: 20px;
+}
+
+.red2 input:checked{
+    background-color: #ff0000;
+    border-color: #ff0000;
+}
+
+.ambar2{
+    gap: 0px;
+    display: flex;
+}
+
+.ambar2 input:checked{
+    background-color: #ffa64d; 
+    border-color: #ffa64d;
+}
+
+.green2{
+    gap: 0px;
+    display: flex;
+}
+
+.green2 input:checked{
+    background-color: green; 
+    border-color: green;
+}

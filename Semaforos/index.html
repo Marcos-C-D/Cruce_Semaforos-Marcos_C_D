@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Semáforo 1</h1>
+        <div class="red1">
+            <input type="checkbox" name="" id="red1_1">
+            <input type="checkbox" name="" id="red1_2">
+            <input type="checkbox" name="" id="red1_3">
+            <input type="checkbox" name="" id="red1_4">
+            <input type="checkbox" name="" id="red1_5">
+            <input type="checkbox" name="" id="red1_6">
+            <input type="checkbox" name="" id="red1_7">
+            <input type="checkbox" name="" id="red1_8">
+            <input type="checkbox" name="" id="red1_9">
+            <input type="checkbox" name="" id="red1_10">
+        </div>
+
+        <div class="ambar1">
+            <input type="checkbox" name="" id="ambar1_1">
+            <input type="checkbox" name="" id="ambar1_2">
+            <input type="checkbox" name="" id="ambar1_3">
+            <input type="checkbox" name="" id="ambar1_4">
+            <input type="checkbox" name="" id="ambar1_5">
+            <input type="checkbox" name="" id="ambar1_6">
+            <input type="checkbox" name="" id="ambar1_7">
+            <input type="checkbox" name="" id="ambar1_8">
+            <input type="checkbox" name="" id="ambar1_9">
+            <input type="checkbox" name="" id="ambar1_10">
+        </div>
+
+        <div class="green1">
+            <input type="checkbox" name="" id="green1_1"> 
+            <input type="checkbox" name="" id="green1_2">
+            <input type="checkbox" name="" id="green1_3">
+            <input type="checkbox" name="" id="green1_4">
+            <input type="checkbox" name="" id="green1_5">
+            <input type="checkbox" name="" id="green1_6">
+            <input type="checkbox" name="" id="green1_7">
+            <input type="checkbox" name="" id="green1_8">
+            <input type="checkbox" name="" id="green1_9">
+            <input type="checkbox" name="" id="green1_10">
+        </div>
+    </div>
+
+    <div>
+        <h2>Semáforo 2</h2>
+        <div class="red2">
+            <input type="checkbox" name="" id="red2_1">
+            <input type="checkbox" name="" id="red2_2">
+            <input type="checkbox" name="" id="red2_3">
+            <input type="checkbox" name="" id="red2_4">
+            <input type="checkbox" name="" id="red2_5">
+            <input type="checkbox" name="" id="red2_6">
+            <input type="checkbox" name="" id="red2_7">
+            <input type="checkbox" name="" id="red2_8">
+            <input type="checkbox" name="" id="red2_9">
+            <input type="checkbox" name="" id="red2_10">
+        </div>
+
+        <div class="ambar2">
+            <input type="checkbox" name="" id="ambar2_1">
+            <input type="checkbox" name="" id="ambar2_2">
+            <input type="checkbox" name="" id="ambar2_3">
+            <input type="checkbox" name="" id="ambar2_4">
+            <input type="checkbox" name="" id="ambar2_5">
+            <input type="checkbox" name="" id="ambar2_6">
+            <input type="checkbox" name="" id="ambar2_7">
+            <input type="checkbox" name="" id="ambar2_8">
+            <input type="checkbox" name="" id="ambar2_9">
+            <input type="checkbox" name="" id="ambar2_10">
+        </div>
+
+        <div class="green2">
+            <input type="checkbox" name="" id="green2_1"> 
+            <input type="checkbox" name="" id="green2_2">
+            <input type="checkbox" name="" id="green2_3">
+            <input type="checkbox" name="" id="green2_4">
+            <input type="checkbox" name="" id="green2_5">
+            <input type="checkbox" name="" id="green2_6">
+            <input type="checkbox" name="" id="green2_7">
+            <input type="checkbox" name="" id="green2_8">
+            <input type="checkbox" name="" id="green2_9">
+            <input type="checkbox" name="" id="green2_10">
+        </div>
+    </div>
+
+    <button id="bt_test">Correr código</button>
+    <script>
+        function readCheckbox(){
+        let value = false
+        value = document.getElementById("red1_1").readCheckbox()
+
+        alert(value)
+    }
+
+    document.getElementById("bt_test").onclick = function(){
+        let value = false
+        value = document.getElementById("red1_1").readCheckbox()
+
+        alert(value)
+    }
+    </script>
+
+    
+
+    <!-- <script src="script2.js"></script> -->
+</body>
+</html>

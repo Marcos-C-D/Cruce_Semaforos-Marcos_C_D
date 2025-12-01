@@ -1,0 +1,41 @@
+<div>
+        <h2>Semáforo 2</h2>
+        <div class="red2">
+            <input type="checkbox" name="" id="red2_1">
+            <input type="checkbox" name="" id="red2_2">
+            <input type="checkbox" name="" id="red2_3">
+            <input type="checkbox" name="" id="red2_4">
+            <input type="checkbox" name="" id="red2_5">
+            <input type="checkbox" name="" id="red2_6">
+            <input type="checkbox" name="" id="red2_7">
+            <input type="checkbox" name="" id="red2_8">
+            <input type="checkbox" name="" id="red2_9">
+            <input type="checkbox" name="" id="red2_10">
+        </div>
+
+        <div class="ambar2">
+            <input type="checkbox" name="" id="ambar2_1">
+            <input type="checkbox" name="" id="ambar2_2">
+            <input type="checkbox" name="" id="ambar2_3">
+            <input type="checkbox" name="" id="ambar2_4">
+            <input type="checkbox" name="" id="ambar2_5">
+            <input type="checkbox" name="" id="ambar2_6">
+            <input type="checkbox" name="" id="ambar2_7">
+            <input type="checkbox" name="" id="ambar2_8">
+            <input type="checkbox" name="" id="ambar2_9">
+            <input type="checkbox" name="" id="ambar2_10">
+        </div>
+
+        <div class="green2">
+            <input type="checkbox" name="" id="green2_1"> 
+            <input type="checkbox" name="" id="green2_2">
+            <input type="checkbox" name="" id="green2_3">
+            <input type="checkbox" name="" id="green2_4">
+            <input type="checkbox" name="" id="green2_5">
+            <input type="checkbox" name="" id="green2_6">
+            <input type="checkbox" name="" id="green2_7">
+            <input type="checkbox" name="" id="green2_8">
+            <input type="checkbox" name="" id="green2_9">
+            <input type="checkbox" name="" id="green2_10">
+        </div>
+    </div>
