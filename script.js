@@ -8,6 +8,9 @@ const green2 = 7
 const pinsList = [red1, ambar1, green1, red2, ambar2, green2]
 
 
+delay(function() {console.log("Espera")}, 5000);
+
+
 
 function read(id) {
     // Reads one checkbox
@@ -36,16 +39,19 @@ function transform(id) {
     return onPins
 }
 
-function prepareToSend(lst){
+function prepareToSend(id){
+    const lst = transform(id)
     let result = []
-
+/* 
     for (let i = 0; i < lst.lenght; i++){
         result.push(lst[i])
         result.push("-")
     }
 
     result.pop()
-    return result.join()
+    return result.join("-") */
+
+    return lst.join("-")
 }
 
 function send(pins) {
@@ -53,6 +59,17 @@ function send(pins) {
     .then(() => alert('Enviado: ' + color));
 }
 
+function continuousSend(lenght){
+    while (true){
+        for (let i = 1; i <= lenght; i++) {
+/*             send(prepareToSend(transform(i.toString()))) */
+            alert(prepareToSend(i.toString()))
+            delay()
+        }
+    }
+}
+
+
 function test(){
-    alert(prepareToSend(transform("1")))
+    continuousSend(10)
 }
